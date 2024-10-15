@@ -6,7 +6,7 @@ build
 - injector
 gcc injector.cpp -o injector.exe
 
--libhook
+- libhook
 gcc --shared -o libhook.dll dllmain.cpp hook.cpp 
 
 in visual studio, use win32Injector.sln
