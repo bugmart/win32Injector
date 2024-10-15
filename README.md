@@ -4,9 +4,11 @@ For example, this allows us to log arguments, registry keys, and the values at s
 
 build
 - injector
+  
 gcc injector.cpp -o injector.exe
 
 - libhook
+  
 gcc --shared -o libhook.dll dllmain.cpp hook.cpp 
 
 in visual studio, use win32Injector.sln
